@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Jiaqi_Xu/static/css/main.6f406722.css",
-    "main.js": "/Jiaqi_Xu/static/js/main.e6518622.js",
+    "main.js": "/Jiaqi_Xu/static/js/main.fedcada5.js",
     "static/media/travel.jpg": "/Jiaqi_Xu/static/media/travel.52a4eaa6b72a4cbe567d.jpg",
     "static/media/arch.jpg": "/Jiaqi_Xu/static/media/arch.01d9566a765de4b1eb9b.jpg",
     "static/media/game.jpg": "/Jiaqi_Xu/static/media/game.992e4a06d5e99ff9c818.jpg",
-    "static/media/resume.pdf": "/Jiaqi_Xu/static/media/resume.3c166525f7bca01e4f46.pdf",
+    "static/media/resume1.pdf": "/Jiaqi_Xu/static/media/resume1.3c166525f7bca01e4f46.pdf",
     "static/media/office.png": "/Jiaqi_Xu/static/media/office.b90ee336a08af144c700.png",
     "static/media/Contact.png": "/Jiaqi_Xu/static/media/Contact.a5b85cc57c82a556f122.png",
     "index.html": "/Jiaqi_Xu/index.html",
     "main.6f406722.css.map": "/Jiaqi_Xu/static/css/main.6f406722.css.map",
-    "main.e6518622.js.map": "/Jiaqi_Xu/static/js/main.e6518622.js.map"
+    "main.fedcada5.js.map": "/Jiaqi_Xu/static/js/main.fedcada5.js.map"
   },
   "entrypoints": [
     "static/css/main.6f406722.css",
-    "static/js/main.e6518622.js"
+    "static/js/main.fedcada5.js"
   ]
 }
