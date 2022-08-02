@@ -5,7 +5,7 @@ $color-black:rgb(12, 12, 12);
 
 $color-greyText:#676767;
 
-$navBarHeight: 115px;
+$navBarHeight: 90px;
 
 $Z-Index-SideBar:900;
 $Z-Index-BackDrop:800;
@@ -16,6 +16,10 @@ body {
   font-family:'Arvo','Helvetica', 'Arial', sans-serif;
   color:$color-black;
   min-width: 360px;
+}
+
+.container {
+  max-width: 1140px;
 }
 
 .show {
@@ -29,15 +33,15 @@ body {
 }
 
 section {
-  padding: 150px 0 80px 0;
+  padding: 100px 50px;
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 48px;
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 24px;
 }
 
 a {
@@ -49,8 +53,8 @@ a {
   border: none;
   border-radius: 2rem;
   box-shadow: 2px 2px 4px $color-mid;
-  margin-bottom: 150px;
-  padding: 80px;
+  margin-bottom: 100px;
+  padding: 50px;
 }
 
 header {
@@ -59,8 +63,8 @@ header {
   width: 100%;
   nav {
     width: 100vw;
-    padding-top: 60px;
-    font-size: 25px;
+    padding-top: 50px;
+    font-size: 20px;
     background-color: white;
     z-index: $Z-Index-NavBar;
     border-bottom: 1px solid #D2D2D2;
@@ -87,7 +91,7 @@ header {
       display: flex;
     }
     li {
-      margin-left: 50px;
+      margin-left: 40px;
     }
   }
   .navBarS {
@@ -95,7 +99,7 @@ header {
     position: fixed;
     right: 0;
     top: 0;
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;
     .navBarSConN{
       right:0;
@@ -118,16 +122,16 @@ header {
   align-items: center;
   .homeText {
     flex:1;
-    padding-right: 1rem;
+    padding-right: 2rem;
     h2 {
-      font-size: 64px;
+      font-size: 45px;
     }
     h1 {
-      font-size: 96px;
+      font-size: 72px;
       margin-bottom: 3rem;
     }
     p {
-      font-size: 28px;
+      font-size: 21px;
       margin-bottom: 3rem;
     }
     a {
@@ -135,12 +139,12 @@ header {
       text-decoration: none;
     }
     button {
-      font-size: 24px;
+      font-size: 16px;
     }
   }
   .homeImg{
     flex:1;
-    margin: 100px 0;
+    margin: 30px 0;
     img{
       width: 100%;
     }
@@ -158,19 +162,19 @@ header {
         margin:auto;
         background-color: #E9DFDC;
         color:white;
-        width: 460px;
-        height: 460px;
+        width: 380px;
+        height: 380px;
         border-radius: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         p {
-          font-size: 20px;
+          font-size: 16px;
           padding: 30px 40px;
         }
         span {
-          font-size: 20px;
+          font-size: 16px;
           padding-left: 5px;
         }
       }
@@ -181,11 +185,11 @@ header {
         padding-left:25px
       }
       p {
-        font-size: 20px;
+        font-size: 18px;
         padding-left:25px;
       }
       ul {
-        font-size: 18px;
+        font-size: 16px;
         color:$color-greyText;
       }
     }
@@ -196,10 +200,10 @@ header {
   .titleDescription {
     margin-bottom: 50px;
     color:$color-greyText;
-    font-size: 20px;
+    font-size: 16px;
   }
   p {
-    font-size: 21px;
+    font-size: 18px;
   }
 }
 
@@ -208,18 +212,18 @@ header {
     display: flex;
     justify-content: center;
     img {
-      width: 450px;
-      height: 450px;
+      width: 360px;
+      height: 360px;
       object-fit: cover;
     }
   }
   .projectText{
-    padding-left: 70px;
+    padding-left: 50px;
     p {
-      margin:60px auto;
+      margin:40px auto;
     }
     button {
-      font-size: 21px;
+      font-size: 16px;
     }
   }
 }
@@ -230,7 +234,7 @@ header {
     justify-content: center;
   }
   img{
-    width: 500px;
+    width: 420px;
     height: auto;
   }
   .contactInfo{
@@ -239,7 +243,7 @@ header {
     flex-direction: column;
     justify-content: center;
     div{
-      font-size: 21px;
+      font-size: 16px;
       margin-top:40px;
     }
   }
@@ -264,34 +268,13 @@ footer {
   .homeSection {
     .homeText {
       h2 {
-        font-size: 48px;
+        font-size: 36px;
       }
       h1 {
-        font-size: 72px;
+        font-size: 54px;
       }
       p {
-        font-size: 21px;
-      }
-    }
-  }
-  .card {
-    padding: 60px;
-  }
-  .experienceSection {
-    .cardWrap {
-      .cardYliftWrap{
-        .cardYlift {
-          width: 420px;
-          height: 420px;
-        }
-      }
-    }
-  }
-  .projectSection {
-    .projectImg {
-      img {
-        width: 400px;
-        height: 400px;
+        font-size: 18px;
       }
     }
   }
@@ -309,13 +292,18 @@ footer {
   .homeSection {
     height: auto;
     flex-direction: column-reverse;
+    .homeImg{
+      img{
+        max-width: 500px;
+      }
+    }
   }
 
   .experienceSection {
     .cardWrap {
       .cardYliftWrap{
         .cardYlift {
-          margin-bottom:100px;
+          margin-bottom:50px;
         }
       }
     }
@@ -325,25 +313,28 @@ footer {
       padding-left: 20px;
     }
     .projectImg {
-      margin-bottom:100px;
+      margin-bottom:50px;
     }
   }
   .contactSection {
     .contactImg{
-      margin-bottom: 100px;
+      margin-bottom: 50px;
     }
   }
 }
 
 @media screen and (max-width: 768px) { //small screen
+  section {
+    padding: 100px 0;
+  }
   h1 {
-    font-size: 52px;
+    font-size: 42px;
   }
   h3 {
-    font-size: 28px;
+    font-size: 21px;
   }
   .card {
-    padding: 60px 10px;
+    padding: 40px 10px;
   }
   .experienceSection {
     .cardWrap {
@@ -366,7 +357,7 @@ footer {
           padding-left:25px
         }
         p {
-          font-size: 20px;
+          font-size: 18px;
         }
       }
     }

@@ -9,7 +9,7 @@ function Home() {
             <div className="homeText">
                 <h2>Hi,I'm</h2>
                 <h1>Jiaqi Xu</h1>
-                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <p>A web developer, based in New York City. Naturally inquisitive and dedicated to my work. Before moving to development, I was an architect.</p>
                 <div>
                     <a href = {resume} target ="_blank" rel="noreferrer"><button className="btn btn-outline-secondary">Resume</button></a>
                     <a className="icon ms-3" href="https://github.com/Jackie-GitHub" target="_blank" rel="noreferrer"><FaGithub size='32px'/></a>
