@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Jiaqi_Xu/static/css/main.ccec9cff.css",
-    "main.js": "/Jiaqi_Xu/static/js/main.b76054b5.js",
+    "main.js": "/Jiaqi_Xu/static/js/main.ec2edc5b.js",
     "static/media/travel.jpg": "/Jiaqi_Xu/static/media/travel.52a4eaa6b72a4cbe567d.jpg",
     "static/media/arch.jpg": "/Jiaqi_Xu/static/media/arch.01d9566a765de4b1eb9b.jpg",
     "static/media/game.jpg": "/Jiaqi_Xu/static/media/game.992e4a06d5e99ff9c818.jpg",
-    "static/media/resume1.pdf": "/Jiaqi_Xu/static/media/resume1.3c166525f7bca01e4f46.pdf",
+    "static/media/resume.pdf": "/Jiaqi_Xu/static/media/resume.edaac80f6a144ed46689.pdf",
     "static/media/office.png": "/Jiaqi_Xu/static/media/office.b90ee336a08af144c700.png",
     "static/media/Contact.png": "/Jiaqi_Xu/static/media/Contact.a5b85cc57c82a556f122.png",
     "index.html": "/Jiaqi_Xu/index.html",
     "main.ccec9cff.css.map": "/Jiaqi_Xu/static/css/main.ccec9cff.css.map",
-    "main.b76054b5.js.map": "/Jiaqi_Xu/static/js/main.b76054b5.js.map"
+    "main.ec2edc5b.js.map": "/Jiaqi_Xu/static/js/main.ec2edc5b.js.map"
   },
   "entrypoints": [
     "static/css/main.ccec9cff.css",
-    "static/js/main.b76054b5.js"
+    "static/js/main.ec2edc5b.js"
   ]
 }
