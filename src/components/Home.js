@@ -1,6 +1,6 @@
 import React from 'react';
 import office from '../resources/imgs/office.png';
-import resume from '../resources/resume1.pdf';
+import resume from '../resources/resume2.pdf';
 import { FaGithub,FaLinkedinIn } from 'react-icons/fa';
 
 function Home() {

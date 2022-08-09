@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import resume from '../resources/resume1.pdf';
+import resume from '../resources/resume2.pdf';
 import { IoMenu } from 'react-icons/io5';
 
 function Header() {

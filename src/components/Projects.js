@@ -15,8 +15,8 @@ function Projects() {
         },
         game:{
             img:game,
-            title:"ArchiCommunity",
-            description:"A responsive full-stack social media platform, like an Instagram specially designed for architects’ community",
+            title:"Find The Love",
+            description:"Unlike the typical memory game in which players need to find the same images behind frames, in this game players need to pair couples in famous paintings.",
             webLink:"https://jackie-github.github.io/memorygame/",
             gitLink:"https://github.com/Jackie-GitHub/memorygame"
         },
@@ -24,8 +24,8 @@ function Projects() {
             img:travel,
             title:"On The Road",
             description:"If you don't know where to travel,On The Road can help you find some ideas about your next destination.",
-            webLink:"https://jackie-github.github.io/ontheroad/",
-            gitLink:"https://github.com/Jackie-GitHub/ontheroad--code"
+            webLink:"https://jackie-github.github.io/on-the-road/",
+            gitLink:"https://github.com/Jackie-GitHub/on-the-road/tree/master"
         },
     }
     return (
