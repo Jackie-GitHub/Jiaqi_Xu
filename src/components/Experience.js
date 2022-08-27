@@ -22,11 +22,11 @@ function Experience() {
                             <h3>Front End Developer</h3>
                             <p>March 2022 - June 2022</p>
                             <ul>
-                                <li>Improved web UX and UI design for better user experience.</li>
-                                <li>Implemented enhancements that improved web functionality and responsiveness.</li>
-                                <li>Developed new features, such as adding new registration field from frontend to backend, popup modals for promotions, technical issue tab for FQA page, etc.</li>
-                                <li>Added real-time popup promotions for live streaming, which are activated by moderator at key moments to enable participants to purchase related products or ask questions.   </li>
-                                <li>Added new TRAINING section and related content pages.</li>
+                                <li>Improved web UX and UI design, functionality, and responsiveness for better user experience.</li>
+                                <li>Added new specialty field to registration section from frontend to backend, which helped sales promote products to targeted medical providers more efficiently.</li>
+                                <li>Created component for real-time popup promotions during live streaming, which are activated by moderator at key moments to enable participants to purchase related products, by using Vue, JavaScript, Amazon Chime SDK. This feature increased sales during live streaming.</li>
+                                <li>Added a new TRAINING page to meet existing customers’ demand and recruit new customers. </li>
+                                <li>Added technical issues instruction tab and popup model to help customers troubleshoot independently.</li>
                                 <li>Queried order data from MySQL for management team.</li>
                                 <li>Deployed website from development to production using AWS CodePipeline.</li>
                             </ul>
